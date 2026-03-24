@@ -21,7 +21,7 @@ def carregar_dataset(caminho):
             indices.append(indice)
     return X, y, indices
 
-def dividir_treino_teste_estratificado(X, y, indices, proporcao_treino=0.80):
+def dividir_treino_teste_estratificado(X, y, indices, proporcao_treino=0.73):
     
     classe_negativa = []
     classe_positiva = []
