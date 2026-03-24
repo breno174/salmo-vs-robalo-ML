@@ -10,7 +10,7 @@ y = []
 class Perceptron:
     def __init__(self, n_inputs, learning_rate=0.18):
         self.learning_rate = learning_rate
-        self.weights = [0.15, 0.15]
+        self.weights = [random.uniform(-1, 0), random.uniform(0, 1)]
         # self.bias = 0.0
         
     def internal_product(self, inputs):
