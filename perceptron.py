@@ -8,7 +8,7 @@ y = []
 
 
 class Perceptron:
-    def __init__(self, n_inputs, learning_rate=0.18):
+    def __init__(self, n_inputs, learning_rate=0.34):
         self.learning_rate = learning_rate
         self.weights = [random.uniform(-1, 0), random.uniform(0, 1)]
         # self.bias = 0.0
